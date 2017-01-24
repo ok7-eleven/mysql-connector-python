@@ -1,0 +1,17 @@
+Source: mysql-connector-python
+Maintainer: Michael Mattice <mmattice@ok7-eleven.com>
+Section: python
+Priority: optional
+Build-Depends: dh-python, python-all-dev (>= 2.6.6-3), debhelper (>= 9)
+Standards-Version: 3.9.6
+Homepage: http://dev.mysql.com/doc/connector-python/en/index.html
+
+Package: python-mysql.connector
+Architecture: any
+Depends: ${misc:Depends}, ${python:Depends}, ${shlibs:Depends}
+Description: MySQL driver written in Python
+ .
+ MySQL driver written in Python which does not depend on MySQL C client
+ libraries and implements the DB API v2.0 specification (PEP-249).
+ .
+
